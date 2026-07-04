@@ -1,4 +1,5 @@
-The Roadmap
+# The Roadmap
+
 Phase 0 — Product definition (~1 week). Write the MVP feature list: auth, profile, unified search across 4 media types, log/rate/review, watchlist-backlog, follow users, activity feed. Everything else (comments, likes, stats pages) is v2. Sketch the ~8 core screens on paper or Figma, and draft the data model.
 Phase 1 — Environment setup. Flutter SDK, Android Studio (for the Android SDK + emulator), VS Code, enable the Windows desktop target, USB debugging on your phone, Git + GitHub repo. Goal: flutter doctor fully green.
 Phase 2 — API access + exploration. Get your TMDb key, Twitch/IGDB credentials, and try Open Library. Then write small Python scripts hitting each API to learn the response shapes before you write any Dart. This saves enormous time later.
@@ -11,4 +12,3 @@ Phase 8 — Polish. cached_network_image for posters, skeleton loaders, paginati
 Phase 9 — Testing. Unit tests for your API repositories and JSON parsers, a few widget tests, plus manual testing on your Android phone and the Windows build.
 Phase 10 — Release. App icon/splash, Google Play Console account ($25 one-time), a privacy policy (mandatory — you store user data), internal testing track, then production. Note TMDb's free tier is for non-commercial use — fine for a free portfolio app, but re-check terms if you ever monetize.
 Phase 11 (optional, your ML playground). A small FastAPI service that does content-based recommendations ("because you rated X highly...") using genres/tags from your cached items.
-

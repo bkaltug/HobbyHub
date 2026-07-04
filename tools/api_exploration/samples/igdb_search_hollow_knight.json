@@ -1,0 +1,157 @@
+[
+  {
+    "id": 365702,
+    "cover": {
+      "id": 485721,
+      "image_id": "coaes9"
+    },
+    "first_release_date": 1699833600,
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "name": "Hollow Knight",
+    "summary": "Unofficial port of the hit game Hollow Knight for PlayStation Vita."
+  },
+  {
+    "id": 14593,
+    "cover": {
+      "id": 533941,
+      "image_id": "cobfzp"
+    },
+    "first_release_date": 1487894400,
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      },
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 228860,
+        "company": {
+          "id": 7263,
+          "name": "Team Cherry"
+        },
+        "developer": true
+      }
+    ],
+    "name": "Hollow Knight",
+    "summary": "A 2D metroidvania with an emphasis on close combat and exploration in which the player enters the once-prosperous now-bleak insect kingdom of Hallownest, travels through its various districts, meets friendly inhabitants, fights hostile ones and uncovers the kingdom's history while improving their combat abilities and movement arsenal by fighting bosses and accessing out-of-the-way areas."
+  },
+  {
+    "id": 372563,
+    "cover": {
+      "id": 498069,
+      "image_id": "coaob9"
+    },
+    "first_release_date": 1627430400,
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 352674,
+        "company": {
+          "id": 53411,
+          "name": "Elvies"
+        },
+        "developer": true
+      }
+    ],
+    "name": "Hollow Knight Silksong"
+  },
+  {
+    "id": 105420,
+    "cover": {
+      "id": 209090,
+      "image_id": "co4hc2"
+    },
+    "first_release_date": 1534982400,
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 25,
+        "name": "Hack and slash/Beat 'em up"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      },
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 163673,
+        "company": {
+          "id": 7263,
+          "name": "Team Cherry"
+        },
+        "developer": true
+      }
+    ],
+    "name": "Hollow Knight: Godmaster",
+    "summary": "Godmaster was the fourth and final free content pack for Hollow Knight."
+  },
+  {
+    "id": 115289,
+    "cover": {
+      "id": 531786,
+      "image_id": "cobebu"
+    },
+    "first_release_date": 1756944000,
+    "genres": [
+      {
+        "id": 8,
+        "name": "Platform"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      },
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 341345,
+        "company": {
+          "id": 7263,
+          "name": "Team Cherry"
+        },
+        "developer": true
+      }
+    ],
+    "name": "Hollow Knight: Silksong",
+    "summary": "Hollow Knight: Silksong is the epic sequel to Hollow Knight, the epic action-adventure of bugs and heroes. As the lethal hunter Hornet, journey to all-new lands, discover new powers, battle vast hordes of bugs and beasts and uncover ancient secrets tied to your nature and your past."
+  }
+]

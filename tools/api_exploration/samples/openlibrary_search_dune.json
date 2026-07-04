@@ -1,0 +1,371 @@
+{
+  "numFound": 44818,
+  "start": 0,
+  "numFoundExact": true,
+  "num_found": 44818,
+  "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+  "q": "dune",
+  "offset": null,
+  "docs": [
+    {
+      "author_key": [
+        "OL79034A"
+      ],
+      "author_name": [
+        "Frank Herbert"
+      ],
+      "cover_edition_key": "OL32848840M",
+      "cover_i": 11481354,
+      "ebook_access": "borrowable",
+      "edition_count": 120,
+      "first_publish_year": 1965,
+      "has_fulltext": true,
+      "ia": [
+        "dune00herb_5",
+        "illustrateddune00fran",
+        "dune000herb",
+        "dune00herb",
+        "duneherb00herb",
+        "duneherb00herb",
+        "duneherb00herb",
+        "dune0000herb_x0j6",
+        "dune00fran",
+        "dune0000herb_a7n1",
+        "dunefran00fran",
+        "dunetome100pock",
+        "dunedunechronicl00fran",
+        "isbn_0425080021",
+        "derwstenplanet00herb"
+      ],
+      "ia_collection": [
+        "California-State-Suggested-Reading",
+        "americana",
+        "americanuniversity-ol",
+        "belmont-ol",
+        "binghamton-ol",
+        "books",
+        "cnusd-ol",
+        "cua-ol",
+        "delawarecountydistrictlibrary",
+        "delawarecountydistrictlibrary-ol",
+        "denverpubliclibrary-ol",
+        "drakeuniversity-ol",
+        "framingham-ol",
+        "goffstownlibrary-ol",
+        "hamiltonpubliclibrary-ol",
+        "inlibrary",
+        "internetarchivebooks",
+        "ithacacollege-ol",
+        "johnshopkins-ol",
+        "library_of_atlantis",
+        "miltonpubliclibrary-ol",
+        "occidentalcollegelibrary-ol",
+        "openlibrary-d-ol",
+        "printdisabled",
+        "randolph-macon-college-ol",
+        "riceuniversity-ol",
+        "rochester-ol",
+        "schroederlibrary-ol",
+        "the-claremont-colleges-ol",
+        "toronto",
+        "tulsacc-ol",
+        "ualberta_historical_school",
+        "ualbertawiedrick",
+        "udc-ol",
+        "unb-ol",
+        "uni-ol",
+        "university_of_alberta_libraries",
+        "universityofcoloradoboulder-ol",
+        "wilsoncollege-ol",
+        "wrlc-ol"
+      ],
+      "key": "/works/OL893415W",
+      "language": [
+        "gre",
+        "por",
+        "pol",
+        "ger",
+        "tur",
+        "eng",
+        "rus",
+        "fre",
+        "spa"
+      ],
+      "lending_edition_s": "OL26242482M",
+      "lending_identifier_s": "dune00herb_5",
+      "public_scan_b": false,
+      "series_key": [
+        "OL331367L"
+      ],
+      "series_name": [
+        "Dune"
+      ],
+      "series_position": [
+        "1"
+      ],
+      "title": "Dune"
+    },
+    {
+      "author_key": [
+        "OL79034A"
+      ],
+      "author_name": [
+        "Frank Herbert"
+      ],
+      "cover_edition_key": "OL10256217M",
+      "cover_i": 2421405,
+      "ebook_access": "borrowable",
+      "edition_count": 70,
+      "first_publish_year": 1969,
+      "has_fulltext": true,
+      "ia": [
+        "messiiadiunydeti00herb",
+        "dunesuividelemes0000herb",
+        "dunemessiahdunec00fran",
+        "bwb_S0-AUP-722",
+        "dunemessiah00fran",
+        "dunemessiah00herb",
+        "dunemessiah0000unse",
+        "isbn_0450012298",
+        "dunemessiah02herb",
+        "dunemessiahbookt00herb",
+        "dunemessiahbookt00herb"
+      ],
+      "ia_collection": [
+        "americana",
+        "binghamton-ol",
+        "cnusd-ol",
+        "dartmouthlibrary-ol",
+        "delawarecountydistrictlibrary",
+        "delawarecountydistrictlibrary-ol",
+        "denverpubliclibrary-ol",
+        "gwulibraries-ol",
+        "inlibrary",
+        "internetarchivebooks",
+        "library_of_atlantis",
+        "openlibrary-d-ol",
+        "printdisabled",
+        "rochester-ol",
+        "spokanepubliclibrary-ol",
+        "uni-ol",
+        "universityofcoloradoboulder-ol",
+        "worthingtonlibraries-ol"
+      ],
+      "key": "/works/OL893526W",
+      "language": [
+        "und",
+        "por",
+        "pol",
+        "dut",
+        "ger",
+        "tur",
+        "eng",
+        "rus",
+        "fre",
+        "spa"
+      ],
+      "lending_edition_s": "OL23044495M",
+      "lending_identifier_s": "messiiadiunydeti00herb",
+      "public_scan_b": false,
+      "series_key": [
+        "OL331367L"
+      ],
+      "series_name": [
+        "Dune"
+      ],
+      "series_position": [
+        "2"
+      ],
+      "title": "Dune Messiah"
+    },
+    {
+      "author_key": [
+        "OL79034A"
+      ],
+      "author_name": [
+        "Frank Herbert"
+      ],
+      "cover_edition_key": "OL24935059M",
+      "cover_i": 6976407,
+      "ebook_access": "borrowable",
+      "edition_count": 51,
+      "first_publish_year": 1976,
+      "has_fulltext": true,
+      "ia": [
+        "lesenfantsdedune0000fran",
+        "lemessiededunesu0000unse",
+        "childrenofduneherb00herb",
+        "childrenofdune00herb_0",
+        "childrenofdun00herb",
+        "childrenofdune1976herb",
+        "childrenofdune00fran",
+        "childrenofdun00herb"
+      ],
+      "ia_collection": [
+        "California-State-Suggested-Reading",
+        "americana",
+        "americanuniversity-ol",
+        "binghamton-ol",
+        "books",
+        "cnusd-ol",
+        "dartmouthlibrary-ol",
+        "delawarecountydistrictlibrary",
+        "delawarecountydistrictlibrary-ol",
+        "denverpubliclibrary-ol",
+        "drakeuniversity-ol",
+        "gwulibraries-ol",
+        "inlibrary",
+        "internetarchivebooks",
+        "ithacacollege-ol",
+        "johnshopkins-ol",
+        "library_of_atlantis",
+        "openlibrary-d-ol",
+        "printdisabled",
+        "spokanepubliclibrary-ol",
+        "the-claremont-colleges-ol",
+        "tulsacc-ol",
+        "uni-ol",
+        "universityofarizona-ol",
+        "universityofcoloradoboulder-ol",
+        "uslprototype",
+        "wilsoncollege-ol"
+      ],
+      "key": "/works/OL893516W",
+      "language": [
+        "por",
+        "pol",
+        "ger",
+        "eng",
+        "chi",
+        "fre",
+        "spa"
+      ],
+      "lending_edition_s": "OL26917266M",
+      "lending_identifier_s": "lesenfantsdedune0000fran",
+      "public_scan_b": false,
+      "series_key": [
+        "OL331367L"
+      ],
+      "series_name": [
+        "Dune"
+      ],
+      "series_position": [
+        "3"
+      ],
+      "title": "Children of Dune"
+    },
+    {
+      "author_key": [
+        "OL79034A"
+      ],
+      "author_name": [
+        "Frank Herbert"
+      ],
+      "cover_edition_key": "OL7525590M",
+      "cover_i": 284530,
+      "ebook_access": "borrowable",
+      "edition_count": 35,
+      "first_publish_year": 1984,
+      "has_fulltext": true,
+      "ia": [
+        "lecyclededune6le0000herb",
+        "derwustenplanet50000herb",
+        "lesheretiquesded0000herb",
+        "hereticsofdune0000herb_l6o0",
+        "hereticsofdune00fran",
+        "hereticsofdune00herb",
+        "hereticsofdunedu00fran"
+      ],
+      "ia_collection": [
+        "americana",
+        "delawarecountydistrictlibrary",
+        "delawarecountydistrictlibrary-ol",
+        "inlibrary",
+        "internetarchivebooks",
+        "library_of_atlantis",
+        "marygrovecollege",
+        "printdisabled",
+        "worthingtonlibraries-ol"
+      ],
+      "key": "/works/OL893502W",
+      "language": [
+        "rus",
+        "pol",
+        "fre",
+        "eng",
+        "spa",
+        "ger",
+        "por"
+      ],
+      "lending_edition_s": "OL8890325M",
+      "lending_identifier_s": "lecyclededune6le0000herb",
+      "public_scan_b": false,
+      "title": "Heretics of Dune"
+    },
+    {
+      "author_key": [
+        "OL79034A"
+      ],
+      "author_name": [
+        "Frank Herbert"
+      ],
+      "cover_i": 6711531,
+      "ebook_access": "borrowable",
+      "edition_count": 40,
+      "first_publish_year": 1981,
+      "has_fulltext": true,
+      "ia": [
+        "lempereurdieuded0000herb_m7x3",
+        "lempereurdieuded0000herb",
+        "bogimperatordiun00herb",
+        "lempereurdieuded0000herb_h5k7",
+        "godemperorofdune0000herb",
+        "godemperorofdune00fran_0",
+        "godemperorofdune00herb",
+        "godemperorofdune00fran"
+      ],
+      "ia_collection": [
+        "americana",
+        "americanuniversity-ol",
+        "binghamton-ol",
+        "cnusd-ol",
+        "delawarecountydistrictlibrary",
+        "delawarecountydistrictlibrary-ol",
+        "denverpubliclibrary-ol",
+        "hamiltonpubliclibrary-ol",
+        "inlibrary",
+        "internetarchivebooks",
+        "library_of_atlantis",
+        "printdisabled",
+        "rochester-ol",
+        "spokanepubliclibrary-ol",
+        "unb-ol",
+        "uni-ol",
+        "wilsoncollege-ol",
+        "worthingtonlibraries-ol"
+      ],
+      "key": "/works/OL893515W",
+      "language": [
+        "fre",
+        "pol",
+        "eng",
+        "spa",
+        "ger",
+        "por"
+      ],
+      "lending_edition_s": "OL31379919M",
+      "lending_identifier_s": "lempereurdieuded0000herb_m7x3",
+      "public_scan_b": false,
+      "series_key": [
+        "OL331367L"
+      ],
+      "series_name": [
+        "Dune"
+      ],
+      "series_position": [
+        "4"
+      ],
+      "title": "God Emperor of Dune"
+    }
+  ]
+}

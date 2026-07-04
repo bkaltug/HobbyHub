@@ -1,29 +1,27 @@
 # HobbyHub — Phase 0: Product Definition
 
-**Status:** Decisions locked — commit under `docs/`; screen sketches still pending
 **Last updated:** 2026-07-04
-
----
 
 ## 1. One-sentence pitch
 
 HobbyHub is a social cataloguing app — Letterboxd's logic extended to four media types. Users log the movies, TV series, books, and games they consume; rate and review them; and follow friends to see their activity.
 
----
-
 ## 2. MVP scope — what v1.0 DOES
 
 ### Accounts & profiles
+
 - Email/password sign-up and sign-in. (Google sign-in: stretch goal — see decision D2.)
 - Unique username chosen at sign-up.
 - Profile page: avatar, display name, bio, a favorites showcase **for each hobby** (4 covers per media type — the Letterboxd signature, × 4), counters (completed items per media type, followers, following).
 
 ### Search & media pages
+
 - One search screen with four tabs: **Movies · TV · Books · Games**.
 - Live search against TMDb (movies + TV), Open Library (books), IGDB (games).
 - Media detail page: cover, title, year, creator (director / show creator / author / developer), genres, synopsis, community average rating (decision D3), and action buttons (log / rate / add to Planned).
 
 ### Logging — the core loop
+
 - Status per item, the **same four values for every media type**: `Planned · In Progress · Completed · Dropped`. The UI translates per type ("Want to watch", "Reading", "Played"…), but the data model stays unified — this one trick keeps a 4-media-type app simple.
 - Rating: 0.5–5 stars in half-star steps (Letterboxd scale).
 - Review: optional free text.
@@ -31,15 +29,18 @@ HobbyHub is a social cataloguing app — Letterboxd's logic extended to four med
 - Times-completed counter (covers rewatch / reread / replay).
 
 ### Library
+
 - "My Library" screen: everything the user has logged, filterable by media type and by status.
 - The `Planned` filter **is** the watchlist/backlog — no separate feature needed.
 
 ### Social
+
 - Follow / unfollow users.
 - View any user's public profile.
 - Home feed: recent activity (logged, rated, reviewed) from followed users, newest first.
 
 ### Settings
+
 - Edit profile, sign out, **delete account** (Google Play requires in-app account deletion — not optional).
 
 ---
@@ -63,7 +64,7 @@ Writing these down gives you permission to stop thinking about them:
 ## 4. Screen map (10 screens)
 
 | # | Screen | Notes |
-|---|--------|-------|
+| - | ------ | ----- |
 | 1 | Welcome / Sign in / Sign up | plus a "pick username" step after sign-up |
 | 2 | Home | activity feed of followed users |
 | 3 | Search | 4 tabs, results list (cover, title, year) |
@@ -94,8 +95,9 @@ Sketch rule: boxes and labels only. Paper + phone photo, or Excalidraw. If a ske
 ## 6. Data model — first draft (PostgreSQL / Supabase)
 
 ### `profiles`
+
 | column | type | notes |
-|---|---|---|
+| ------ | ---- | ----- |
 | id | uuid PK | equals Supabase `auth.users.id` |
 | username | text UNIQUE NOT NULL | lowercase, 3–20 chars |
 | display_name | text | |
@@ -104,16 +106,18 @@ Sketch rule: boxes and labels only. Paper + phone photo, or Excalidraw. If a ske
 | created_at | timestamptz | |
 
 ### `follows`
+
 | column | type | notes |
-|---|---|---|
+| ------ | ---- | ----- |
 | follower_id | uuid FK → profiles | |
 | following_id | uuid FK → profiles | |
 | created_at | timestamptz | |
 | | | PRIMARY KEY (follower_id, following_id) |
 
 ### `media_items` — cache of anything a user has touched
+
 | column | type | notes |
-|---|---|---|
+| ------ | ---- | ----- |
 | id | uuid PK | |
 | media_type | enum | movie \| tv \| book \| game |
 | source | enum | tmdb \| openlibrary \| igdb |
@@ -128,8 +132,9 @@ Sketch rule: boxes and labels only. Paper + phone photo, or Excalidraw. If a ske
 | | | UNIQUE (source, external_id) |
 
 ### `logs` — one row per user per item (see decision D1)
+
 | column | type | notes |
-|---|---|---|
+| ------ | ---- | ----- |
 | id | uuid PK | |
 | user_id | uuid FK → profiles | |
 | media_item_id | uuid FK → media_items | |
@@ -142,8 +147,9 @@ Sketch rule: boxes and labels only. Paper + phone photo, or Excalidraw. If a ske
 | | | UNIQUE (user_id, media_item_id) |
 
 ### `favorites` — a 4-cover showcase per media type
+
 | column | type | notes |
-|---|---|---|
+| ------ | ---- | ----- |
 | user_id | uuid FK → profiles | |
 | media_type | enum | movie \| tv \| book \| game |
 | media_item_id | uuid FK → media_items | |
@@ -153,6 +159,7 @@ Sketch rule: boxes and labels only. Paper + phone photo, or Excalidraw. If a ske
 `media_type` is stored here even though it also lives on `media_items`: that way the primary key itself enforces "max 4 favorites per hobby" (16 total). The app just keeps it consistent with the item it points to.
 
 ### The feed is just a query
+
 ```sql
 select l.*, m.title, m.cover_url, m.media_type, p.username, p.avatar_url
 from logs l
@@ -162,6 +169,7 @@ where l.user_id in (select following_id from follows where follower_id = :me)
 order by l.updated_at desc
 limit 20;
 ```
+
 This single query is why we chose Supabase/Postgres over Firestore.
 
 ---
